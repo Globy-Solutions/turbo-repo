@@ -11,7 +11,7 @@ export interface ButtonProps {
   onClick?: (event: GestureResponderEvent) => void;
 }
 
-export function Button({ text, onClick }: ButtonProps) {
+function Button({ text, onClick }: ButtonProps) {
   return (
     <TouchableOpacity style={styles.button} onPress={onClick}>
       <Text style={styles.text}>{text}</Text>
@@ -35,3 +35,5 @@ const styles = StyleSheet.create({
     color: "white",
   },
 });
+
+export default Button;

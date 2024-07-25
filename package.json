@@ -2,7 +2,7 @@
   "name": "with-react-native-web",
   "private": true,
   "workspaces": [
-    "apps/*",
+    "apps/react_native",
     "packages/*"
   ],
   "scripts": {
